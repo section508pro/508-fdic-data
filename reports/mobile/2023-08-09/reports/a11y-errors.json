@@ -1,0 +1,162 @@
+[
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-DIV",
+            "path": "3,HTML,2,BODY,5,MAIN,0,SECTION,0,DIV,1,DIV",
+            "selector": "main#main-content > section > div > div.dots",
+            "boundingRect": {
+              "top": 471,
+              "bottom": 548,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 77
+            },
+            "snippet": "<div role=\"tablist\" class=\"dots glider-dots\">",
+            "nodeLabel": "Page 1",
+            "explanation": "Fix any of the following:\n  Required ARIA child role not present: tab"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-282-DIV",
+            "path": "3,HTML,2,BODY,5,MAIN,11,SECTION,1,DIV,2,DIV",
+            "selector": "main#main-content > section.mobile-padding-x-neg-2 > div.grid-container > div.dots",
+            "boundingRect": {
+              "top": 2746,
+              "bottom": 2823,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 77
+            },
+            "snippet": "<div role=\"tablist\" class=\"dots glider-dots\">",
+            "nodeLabel": "Page 1",
+            "explanation": "Fix any of the following:\n  Required ARIA child role not present: tab"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-283-DIV",
+            "path": "3,HTML,2,BODY,5,MAIN,13,SECTION,0,SECTION,1,DIV,3,DIV",
+            "selector": "section.mobile-padding-x-neg-2 > section > div.grid-container > div.dots",
+            "boundingRect": {
+              "top": 3446,
+              "bottom": 3523,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 77
+            },
+            "snippet": "<div role=\"tablist\" class=\"dots glider-dots\">",
+            "nodeLabel": "Page 1",
+            "explanation": "Fix any of the following:\n  Required ARIA child role not present: tab"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "3,HTML,2,BODY,1,A",
+            "selector": "body.usa > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-258-BUTTON",
+            "path": "3,HTML,2,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 23,
+              "left": 4,
+              "right": 416,
+              "width": 412,
+              "height": 23
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

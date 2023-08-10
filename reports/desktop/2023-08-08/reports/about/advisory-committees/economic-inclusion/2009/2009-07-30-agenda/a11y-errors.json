@@ -1,0 +1,185 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-UL",
+            "path": "3,HTML,2,BODY,5,MAIN,4,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,4,UL",
+            "selector": "div.grid-col-12 > div.margin-x-2 > div.overflow-x-auto > ul",
+            "boundingRect": {
+              "top": 1503,
+              "bottom": 1600,
+              "left": 48,
+              "right": 1302,
+              "width": 1254,
+              "height": 97
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The FDIC’s Small-Dollar Loan Pilot Program: A Case Study after One Year - PDF\nF…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-191-P",
+                  "path": "3,HTML,2,BODY,5,MAIN,4,SECTION,0,DIV,0,DIV,1,DIV,0,DIV,4,DIV,4,UL,3,P",
+                  "selector": "div.margin-x-2 > div.overflow-x-auto > ul > p",
+                  "boundingRect": {
+                    "top": 1574,
+                    "bottom": 1600,
+                    "left": 88,
+                    "right": 1302,
+                    "width": 1214,
+                    "height": 26
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "PDF Help - Information on downloading and using the PDF reader."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "3,HTML,2,BODY,1,A",
+            "selector": "body.usa > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-BUTTON",
+            "path": "3,HTML,2,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 18,
+              "left": 285,
+              "right": 295,
+              "width": 10,
+              "height": 14
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-INPUT",
+            "path": "3,HTML,2,BODY,4,HEADER,5,DIV,1,NAV,0,DIV,2,DIV,0,FORM,0,DIV,2,INPUT",
+            "selector": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > input#query2",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 49,
+              "left": 950,
+              "right": 1236,
+              "width": 286,
+              "height": 32
+            },
+            "snippet": "<input tabindex=\"2\" type=\"search\" autocomplete=\"off\" class=\"usa-input extended-mega-search-field-small margin-bottom-2 margin-right-ne…\" id=\"query2\" name=\"query\" value=\"Search FDIC.gov\" onblur=\"if(this.value == '') {this.value = 'Search FDIC.gov';}\" onfocus=\"if(this.value == 'Search FDIC.gov') {this.value = '';}\">",
+            "nodeLabel": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > input#query2",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-193-BUTTON",
+            "path": "3,HTML,2,BODY,4,HEADER,5,DIV,1,NAV,0,DIV,2,DIV,0,FORM,0,DIV,3,BUTTON",
+            "selector": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > button#searchsubmit2",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 49,
+              "left": 1234,
+              "right": 1270,
+              "width": 36,
+              "height": 32
+            },
+            "snippet": "<button tabindex=\"3\" name=\"commit2\" type=\"submit\" class=\"usa-button submit\" id=\"searchsubmit2\" aria-label=\"Submit Search Request\" value=\"\">",
+            "nodeLabel": "SEARCH",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
