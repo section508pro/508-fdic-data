@@ -1,1 +1,9 @@
-{}
+{
+  "tabindex": 130,
+  "color-contrast": 17,
+  "heading-order": 16,
+  "link-name": 9,
+  "aria-required-children": 6,
+  "list": 1,
+  "meta-viewport": 1
+}
