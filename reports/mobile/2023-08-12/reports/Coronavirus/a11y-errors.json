@@ -1,0 +1,203 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-95-A",
+            "path": "3,HTML,2,BODY,5,MAIN,9,SECTION,1,DIV,0,DIV,4,UL,1,A",
+            "selector": "div.usa-layout > div.boxcardcontent > ul > a",
+            "boundingRect": {
+              "top": 3523,
+              "bottom": 3523,
+              "left": 56,
+              "right": 56,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/Coronavirus/faq-fi.pdf\">",
+            "nodeLabel": "div.usa-layout > div.boxcardcontent > ul > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-260-UL",
+            "path": "3,HTML,2,BODY,5,MAIN,9,SECTION,1,DIV,0,DIV,4,UL",
+            "selector": "section.padding-top-2 > div.usa-layout > div.boxcardcontent > ul",
+            "boundingRect": {
+              "top": 3366,
+              "bottom": 5216,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 1850
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Frequently Asked Questions: Frequently Asked Questions: For Financial Instituti…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-95-A",
+                  "path": "3,HTML,2,BODY,5,MAIN,9,SECTION,1,DIV,0,DIV,4,UL,1,A",
+                  "selector": "div.usa-layout > div.boxcardcontent > ul > a",
+                  "boundingRect": {
+                    "top": 3523,
+                    "bottom": 3523,
+                    "left": 56,
+                    "right": 56,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a href=\"/Coronavirus/faq-fi.pdf\">",
+                  "nodeLabel": "div.usa-layout > div.boxcardcontent > ul > a"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "3,HTML,2,BODY,1,A",
+            "selector": "body.usa > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\" lang=\"en\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-BUTTON",
+            "path": "3,HTML,2,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 23,
+              "left": 4,
+              "right": 416,
+              "width": 412,
+              "height": 23
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

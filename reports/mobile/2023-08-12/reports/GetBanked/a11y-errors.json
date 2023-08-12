@@ -1,0 +1,313 @@
+[
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-240-DIV",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,3,DIV",
+            "selector": "body.usa > main#main-content > section#section4 > div.dots",
+            "boundingRect": {
+              "top": 5362,
+              "bottom": 5439,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 77
+            },
+            "snippet": "<div role=\"tablist\" class=\"dots glider-dots\">",
+            "nodeLabel": "Page 1",
+            "explanation": "Fix any of the following:\n  Required ARIA child role not present: tab"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-112-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/resources/consumers/consumer-news/\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-114-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 397,
+              "right": 775,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/consumers/consumer/news/january2019.html\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-116-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 777,
+              "right": 1155,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/coronavirus/faq-customer.pdf\" target=\"_blank\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-118-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 1157,
+              "right": 1535,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/resources/consumers/money-smart/learn-money-smart/index.html\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-120-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 1537,
+              "right": 1915,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/consumers/education/documents/manage-my-checking-account.pdf\" target=\"_blank\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-122-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,5,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 1917,
+              "right": 2295,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/resources/deposit-insurance/\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-124-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,6,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 2297,
+              "right": 2675,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/resources/consumers/index.html\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-126-A",
+            "path": "3,HTML,2,BODY,5,MAIN,6,SECTION,2,DIV,0,DIV,7,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "boundingRect": {
+              "top": 5021,
+              "bottom": 5215,
+              "left": 2677,
+              "right": 3055,
+              "width": 378,
+              "height": 194
+            },
+            "snippet": "<a href=\"/consumers/assistance/protection/IdTheft.html\" class=\"width-full\" aria-label=\"\">",
+            "nodeLabel": "div.glider-slide > div.card > div.overflow-hidden > a.width-full",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 8
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-0-A",
+            "path": "3,HTML,2,BODY,1,A",
+            "selector": "body.usa > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\" lang=\"en\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "39-225-BUTTON",
+            "path": "3,HTML,2,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 23,
+              "left": 4,
+              "right": 416,
+              "width": 412,
+              "height": 23
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
