@@ -1,0 +1,410 @@
+[
+  {
+    "path": "/",
+    "score": 0.82,
+    "performance": 0.53,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/2010-10-14-agenda.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/2011-05-11-agenda.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/2011-11-04-agenda.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/2012-11-08-agenda.html",
+    "score": 0.98,
+    "performance": 0.93,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/2014-04-09-agenda.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/2015-04-02-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/community-banking/index.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2007/2007-03-28-meeting.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2007/2007-07-16-agenda.html",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2007/2007-07-16-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2007/2007-10-24-agenda.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2007/background.html",
+    "score": 0.99,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2008/agendajuly908.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2009/2009-02-05-agenda.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2009/2009-02-05-meeting.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2009/2009-07-30-agenda.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.96,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2009/2009-07-30-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2010/2010-06-24-meeting.html",
+    "score": 0.87,
+    "performance": 0.49,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2011/2011-06-02-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2012/2012-04-26-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2013/2013-10-09-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2014/2014-04-24-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2014/2014-10-29-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2014/2014-10-29-meeting.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2015/2015-05-15-agenda.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2015/2015-05-15-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2015/2015-10-30-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2015/2015-10-30-meeting.html",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2016/2016-05-25-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2016/2016-05-25-meeting.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2016/2016-10-20-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2016/2016-10-20-meeting.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2017/2017-04-27-agenda.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2017/2017-04-27-meeting.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2017/2017-10-18-agenda.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2017/2017-10-18-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2018/2018-10-24-agenda.html",
+    "score": 0.99,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2018/2018-10-24-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2019/2019-10-22-agenda.html",
+    "score": 0.99,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2019/2019-10-22-meeting.html",
+    "score": 1,
+    "performance": 1,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2020/2020-10-22-agenda.html",
+    "score": 0.99,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/about/advisory-committees/economic-inclusion/2020/2020-10-22-meeting.html",
+    "score": 0.99,
+    "performance": 0.99,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/Coronavirus/",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 0.94,
+    "best-practices": 1,
+    "seo": 1
+  },
+  {
+    "path": "/Coronavirus/smallbusiness/",
+    "score": 0.87,
+    "performance": 0.65,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/GetBanked/",
+    "score": 0.85,
+    "performance": 0.62,
+    "accessibility": 0.96,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/MDI/",
+    "score": 0.81,
+    "performance": 0.71,
+    "accessibility": 0.88,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/QBP/",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 0.98,
+    "best-practices": 1,
+    "seo": 0.92
+  }
+]
