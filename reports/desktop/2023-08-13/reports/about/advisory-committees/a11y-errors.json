@@ -1,0 +1,161 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-H3",
+            "path": "3,HTML,2,BODY,6,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,H3",
+            "selector": "section.usa-footer__primary-content > div.usa-contact-cta > div.usa-form > h3.usa-contact-cta__heading",
+            "boundingRect": {
+              "top": 1215,
+              "bottom": 1246,
+              "left": 32,
+              "right": 439,
+              "width": 407,
+              "height": 31
+            },
+            "snippet": "<h3 class=\"usa-contact-cta__heading font-alt-lg margin-top-0 margin-bottom-4 text-upp…\">",
+            "nodeLabel": "CONTACT THE FDIC",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "3,HTML,2,BODY,1,A",
+            "selector": "body.usa > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\" lang=\"en\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-BUTTON",
+            "path": "3,HTML,2,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 18,
+              "left": 285,
+              "right": 295,
+              "width": 10,
+              "height": 14
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-191-INPUT",
+            "path": "3,HTML,2,BODY,4,HEADER,5,DIV,1,NAV,0,DIV,2,DIV,0,FORM,0,DIV,2,INPUT",
+            "selector": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > input#query2",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 49,
+              "left": 950,
+              "right": 1236,
+              "width": 286,
+              "height": 32
+            },
+            "snippet": "<input tabindex=\"2\" type=\"search\" autocomplete=\"off\" class=\"usa-input extended-mega-search-field-small margin-bottom-2 margin-right-ne…\" id=\"query2\" name=\"query\" value=\"Search FDIC.gov\" onblur=\"if(this.value == '') {this.value = 'Search FDIC.gov';}\" onfocus=\"if(this.value == 'Search FDIC.gov') {this.value = '';}\">",
+            "nodeLabel": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > input#query2",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-BUTTON",
+            "path": "3,HTML,2,BODY,4,HEADER,5,DIV,1,NAV,0,DIV,2,DIV,0,FORM,0,DIV,3,BUTTON",
+            "selector": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > button#searchsubmit2",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 49,
+              "left": 1234,
+              "right": 1270,
+              "width": 36,
+              "height": 32
+            },
+            "snippet": "<button tabindex=\"3\" name=\"commit2\" type=\"submit\" class=\"usa-button submit\" id=\"searchsubmit2\" aria-label=\"Submit Search Request\" value=\"\">",
+            "nodeLabel": "SEARCH",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
