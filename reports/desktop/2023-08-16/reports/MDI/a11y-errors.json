@@ -1,0 +1,960 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-89-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,0,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 307,
+              "bottom": 321,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/\">",
+            "nodeLabel": "Home",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-90-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,1,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 332,
+              "bottom": 362,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 30
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/events/interagency2023/index.html\">",
+            "nodeLabel": "2023 Interagency MDI and CDFI Bank Conference",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-91-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,2,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 373,
+              "bottom": 388,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/congress/index.html\">",
+            "nodeLabel": "Annual Report to Congress",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-92-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,3,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 399,
+              "bottom": 414,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/collaboration/index.html\">",
+            "nodeLabel": "Collaboration",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-93-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,4,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 425,
+              "bottom": 455,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 30
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/policy.html\">",
+            "nodeLabel": "FDIC Statement of Policy Regarding MDIs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-94-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,5,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 466,
+              "bottom": 481,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/mission-driven/index.html\">",
+            "nodeLabel": "Mission-Driven Bank Fund",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-95-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,6,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 492,
+              "bottom": 507,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/mdi.html\">",
+            "nodeLabel": "List of MDIs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-96-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,7,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 518,
+              "bottom": 533,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/events.html\">",
+            "nodeLabel": "MDI Events",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-97-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,9,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 544,
+              "bottom": 559,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/study.html\">",
+            "nodeLabel": "MDI Research Study",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-98-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,10,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 570,
+              "bottom": 585,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/subcommittee/index.html\">",
+            "nodeLabel": "MDI Subcommittee",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-99-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,11,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 596,
+              "bottom": 611,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/new-mdis.html\">",
+            "nodeLabel": "New MDIs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-100-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,12,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 622,
+              "bottom": 652,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 30
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/resources.html\">",
+            "nodeLabel": "Other Useful Resources for MDIs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-101-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,13,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 663,
+              "bottom": 678,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/speeches/index.html\">",
+            "nodeLabel": "Speeches and Testimony",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-102-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,14,LI,0,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 689,
+              "bottom": 703,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"/regulations/resources/minority/contact.html\">",
+            "nodeLabel": "MDI Coordinators and Contacts",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-103-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,16,LI,1,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 785,
+              "bottom": 800,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"https://service.govdelivery.com/accounts/USFDIC/subscriber/new\">",
+            "nodeLabel": "E-mail Subscriptions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-104-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,18,LI,1,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 852,
+              "bottom": 867,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"mailto:mdiprogram@fdic.gov\">",
+            "nodeLabel": "comments or suggestions",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-105-A",
+            "path": "2,HTML,2,BODY,51,DIV,2,UL,18,LI,3,A",
+            "selector": "div#content > ul.left_navigation > li > a",
+            "boundingRect": {
+              "top": 897,
+              "bottom": 912,
+              "left": 15,
+              "right": 205,
+              "width": 190,
+              "height": 15
+            },
+            "snippet": "<a href=\"mailto:mdiprogram@fdic.gov\">",
+            "nodeLabel": "MDIProgram@fdic.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #4277ae, background color: #eeeeee, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "17-194-UL",
+                  "path": "2,HTML,2,BODY,51,DIV,2,UL",
+                  "selector": "body > div#content > ul.left_navigation",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 917,
+                    "left": 10,
+                    "right": 210,
+                    "width": 200,
+                    "height": 615
+                  },
+                  "snippet": "<ul class=\"left_navigation\">",
+                  "nodeLabel": "Home\n2023 Interagency MDI and CDFI Bank Conference\nAnnual Report to Congress\nCo…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 17
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-195-H3",
+            "path": "2,HTML,2,BODY,51,DIV,6,DIV,0,H3",
+            "selector": "body > div#content > div > h3",
+            "boundingRect": {
+              "top": 401,
+              "bottom": 428,
+              "left": 10,
+              "right": 1340,
+              "width": 1330,
+              "height": 27
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Mission-Driven Bank Fund",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-157-META",
+            "path": "2,HTML,1,HEAD,6,META",
+            "selector": "head > meta",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">",
+            "nodeLabel": "head > meta",
+            "explanation": "Fix any of the following:\n  maximum-scale on <meta> tag disables zooming on mobile devices"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "best-practice",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-0-A",
+            "path": "2,HTML,2,BODY,45,A",
+            "selector": "body > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\" lang=\"en\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-188-BUTTON",
+            "path": "2,HTML,2,BODY,47,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 4,
+              "bottom": 18,
+              "left": 285,
+              "right": 295,
+              "width": 10,
+              "height": 14
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-196-INPUT",
+            "path": "2,HTML,2,BODY,48,HEADER,4,DIV,1,NAV,0,DIV,2,DIV,0,FORM,0,DIV,2,INPUT",
+            "selector": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > input#query2",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 49,
+              "left": 950,
+              "right": 1236,
+              "width": 286,
+              "height": 32
+            },
+            "snippet": "<input tabindex=\"2\" type=\"search\" autocomplete=\"off\" class=\"usa-input extended-mega-search-field-small margin-bottom-2 margin-right-ne…\" id=\"query2\" name=\"query\" value=\"Search FDIC.gov\" onblur=\"if(this.value == '') {this.value = 'Search FDIC.gov';}\" onfocus=\"if(this.value == 'Search FDIC.gov') {this.value = '';}\">",
+            "nodeLabel": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > input#query2",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "17-197-BUTTON",
+            "path": "2,HTML,2,BODY,48,HEADER,4,DIV,1,NAV,0,DIV,2,DIV,0,FORM,0,DIV,3,BUTTON",
+            "selector": "div.usa-nav__secondary > form#cse-search-box-form-id2 > div > button#searchsubmit2",
+            "boundingRect": {
+              "top": 17,
+              "bottom": 49,
+              "left": 1234,
+              "right": 1270,
+              "width": 36,
+              "height": 32
+            },
+            "snippet": "<button tabindex=\"3\" name=\"commit2\" type=\"submit\" class=\"usa-button submit\" id=\"searchsubmit2\" aria-label=\"Submit Search Request\" value=\"\">",
+            "nodeLabel": "SEARCH",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
