@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-0-A",
+            "path": "3,HTML,2,BODY,1,A",
+            "selector": "body.usa > a.skipheader",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1,
+              "left": 0,
+              "right": 1,
+              "width": 1,
+              "height": 1
+            },
+            "snippet": "<a href=\"#main-content\" class=\"skipheader\" tabindex=\"1\" lang=\"en\">",
+            "nodeLabel": "Skip Header",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-206-BUTTON",
+            "path": "3,HTML,2,BODY,3,DIV,0,DIV,0,HEADER,0,DIV,2,BUTTON",
+            "selector": "div.usa-accordion > header.usa-banner__header > div.usa-banner__inner > button.usa-accordion__button",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 23,
+              "left": 4,
+              "right": 416,
+              "width": 412,
+              "height": 23
+            },
+            "snippet": "<button tabindex=\"1\" class=\"usa-accordion__button usa-banner__button inside-nav\" aria-expanded=\"false\" aria-controls=\"gov-banner\" aria-label=\"Here’s how you know\">",
+            "nodeLabel": "Here’s how you know",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
